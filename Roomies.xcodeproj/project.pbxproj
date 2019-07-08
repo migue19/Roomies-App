@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B83B35A922D29A68002446EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B35A822D29A68002446EF /* AppDelegate.swift */; };
-		B83B35AB22D29A68002446EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B35AA22D29A68002446EF /* ViewController.swift */; };
+		B83B35AB22D29A68002446EF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B35AA22D29A68002446EF /* TabBarController.swift */; };
 		B83B35AE22D29A68002446EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83B35AC22D29A68002446EF /* Main.storyboard */; };
 		B83B35B022D29A6A002446EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83B35AF22D29A6A002446EF /* Assets.xcassets */; };
 		B83B35B322D29A6A002446EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83B35B122D29A6A002446EF /* LaunchScreen.storyboard */; };
+		B860495022D2A1B10060B9EA /* RoomiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B860494F22D2A1B10060B9EA /* RoomiesViewController.swift */; };
+		B860495222D2B1CE0060B9EA /* RommiesCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B860495122D2B1CE0060B9EA /* RommiesCellCollectionViewCell.swift */; };
+		B8B91C4C22D2C453001532BA /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B91C4B22D2C453001532BA /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B83B35A522D29A68002446EF /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B35A822D29A68002446EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B83B35AA22D29A68002446EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B83B35AA22D29A68002446EF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B83B35AD22D29A68002446EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B83B35AF22D29A6A002446EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83B35B222D29A6A002446EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83B35B422D29A6A002446EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B860494F22D2A1B10060B9EA /* RoomiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomiesViewController.swift; sourceTree = "<group>"; };
+		B860495122D2B1CE0060B9EA /* RommiesCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RommiesCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8B91C4B22D2C453001532BA /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				B83B35A822D29A68002446EF /* AppDelegate.swift */,
-				B83B35AA22D29A68002446EF /* ViewController.swift */,
+				B83B35AA22D29A68002446EF /* TabBarController.swift */,
+				B860494F22D2A1B10060B9EA /* RoomiesViewController.swift */,
+				B860495122D2B1CE0060B9EA /* RommiesCellCollectionViewCell.swift */,
 				B83B35AC22D29A68002446EF /* Main.storyboard */,
 				B83B35AF22D29A6A002446EF /* Assets.xcassets */,
 				B83B35B122D29A6A002446EF /* LaunchScreen.storyboard */,
 				B83B35B422D29A6A002446EF /* Info.plist */,
+				B8B91C4B22D2C453001532BA /* TaskViewController.swift */,
 			);
 			path = Roomies;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83B35AB22D29A68002446EF /* ViewController.swift in Sources */,
+				B860495022D2A1B10060B9EA /* RoomiesViewController.swift in Sources */,
+				B860495222D2B1CE0060B9EA /* RommiesCellCollectionViewCell.swift in Sources */,
+				B8B91C4C22D2C453001532BA /* TaskViewController.swift in Sources */,
+				B83B35AB22D29A68002446EF /* TabBarController.swift in Sources */,
 				B83B35A922D29A68002446EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				INFOPLIST_FILE = Roomies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				INFOPLIST_FILE = Roomies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
